@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* Primary */
+    --color-Dark-Blue-intro: hsl(210, 28%, 15%);
+    --color-Dark-Blue-main: hsl(218, 28%, 13%);
+    --color-Dark-Blue-footer: hsl(216, 53%, 9%);
+    --color-Dark-Blue-testimonials: hsl(219, 30%, 18%);
+
+    /* Accent */
+    --color-Cyan: hsl(176, 68%, 64%);
+    --color-Blue: hsl(198, 60%, 50%);
+    --color-Light-Red: hsl(0, 100%, 63%);
+}
+
+html {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: hsl(176, 68%, 64%) hsl(218, 28%, 13%);
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(218, 28%, 13%);
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(176, 68%, 64%);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(176, 68%, 50%);
+}
+
+Body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: "Raleway", sans-serif;
+}
+
+#Hero {
+    background: url("/public/images/bg-curvy-desktop.svg") no-repeat center bottom;
+    background-size: contain;
+    background-color: var(--color-Dark-Blue-intro);
+}
+
+@media (max-width: 768px) {
+    #Hero {
+        background: url("/public/images/bg-curvy-mobile.svg") no-repeat center bottom;
+        background-size: contain;
+        background-color: hsl(217, 28%, 15%);
+    }
+}

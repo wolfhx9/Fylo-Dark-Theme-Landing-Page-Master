@@ -11,8 +11,7 @@ export function Team() {
                 {/* img */}
                 <div className="lg:w-1/2">
                     <img
-                        src="
-                        /images/illustration-stay-productive.png"
+                        src="images/illustration-stay-productive.png"
                         alt="Illustration Stay Productive"
                         className="w-full"
                         loading="lazy"

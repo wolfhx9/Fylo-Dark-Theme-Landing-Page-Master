@@ -9,7 +9,7 @@ export function Features() {
                     {/* Featuer 1 */}
                     <div className="lg:w-2/3 flex flex-col gap-4 justify-center items-center">
                         <img
-                            src="/images/icon-access-anywhere.svg"
+                            src="images/icon-access-anywhere.svg"
                             alt="Access Anywhere"
                             className="w-28 md:w-32"
                             loading="lazy"
@@ -27,7 +27,7 @@ export function Features() {
                     {/* Featuer 2 */}
                     <div className="lg:w-2/3 flex flex-col gap-4 justify-center items-center">
                         <img
-                            src="/images/icon-security.svg"
+                            src="images/icon-security.svg"
                             alt="Security"
                             className="w-24 md:w-30"
                             loading="lazy"
@@ -45,7 +45,7 @@ export function Features() {
                     {/* Featuer 3 */}
                     <div className="lg:w-2/3 flex flex-col gap-4 justify-center items-center">
                         <img
-                            src="/images/icon-collaboration.svg"
+                            src="images/icon-collaboration.svg"
                             alt="Collaboration"
                             className="w-28 md:w-32"
                             loading="lazy"
@@ -63,7 +63,7 @@ export function Features() {
                     {/* Featuer 4 */}
                     <div className="lg:w-2/3 flex flex-col gap-4 justify-center items-center">
                         <img
-                            src="/images/icon-any-file.svg"
+                            src="images/icon-any-file.svg"
                             alt="File"
                             className="w-28 md:w-32"
                             loading="lazy"

@@ -19,7 +19,7 @@ export function Header() {
         >
             <div className="px-2 container mx-auto flex items-center justify-between">
                 <img
-                    src="/images/logo.svg"
+                    src="images/logo.svg"
                     alt="Logo"
                     loading="eager"
                     className="w-30 md:w-40"

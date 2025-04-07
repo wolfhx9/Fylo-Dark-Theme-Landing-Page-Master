@@ -9,7 +9,7 @@ export function Footer() {
                 {/* Logo */}
                 <a href="#Hero">
                     <img
-                        src="/images/logo.svg"
+                        src="images/logo.svg"
                         alt="logo"
                         loading="lazy"
                         className="w-40 md:w-52"
@@ -21,9 +21,10 @@ export function Footer() {
                     <div className="lg:w-1/2 flex flex-col md:flex-row justify-between gap-y-10">
                         <div className="md:w-1/2 flex space-x-4 items-start">
                             <img
-                                src="/images/icon-location.svg"
+                                src="images/icon-location.svg"
                                 alt="location"
                                 className="w-24"
+                                loading="lazy"
                             />
                             <p className="text-gray-300 text-xl">
                                 Lorem ipsum dolor sit amet, consectetur
@@ -34,15 +35,17 @@ export function Footer() {
                         <div className="text-xl text-gray-300 flex flex-col space-y-10">
                             <p className="flex items-center gap-4">
                                 <img
-                                    src="/images/icon-phone.svg"
-                                    alt=""
+                                    src="images/icon-phone.svg"
+                                    alt="phone"
+                                    loading="lazy"
                                 />
                                 +1-543-123-4567
                             </p>
                             <p className="flex items-center gap-4">
                                 <img
-                                    src="/images/icon-email.svg"
+                                    src="images/icon-email.svg"
                                     alt="email"
+                                    loading="lazy"
                                 />
                                 example@fylo.com
                             </p>

@@ -3,7 +3,7 @@ export function Testimonials() {
         <section className="bg-Dark-Blue-main px-10 md:px-0 py-10 md:py-20">
             <div className="relative container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
                 <img
-                    src="/images/bg-quotes.png"
+                    src="images/bg-quotes.png"
                     alt="Quotes"
                     loading="lazy"
                     className="absolute -top-9 left-4 md:-left-4"
@@ -19,7 +19,7 @@ export function Testimonials() {
                     {/* profile */}
                     <div className="pt-4 flex items-center space-x-4">
                         <img
-                            src="/images/profile-1.jpg"
+                            src="images/profile-1.jpg"
                             alt="Profile 1"
                             loading="lazy"
                             className="w-12 md:w-16 rounded-full"
@@ -42,7 +42,7 @@ export function Testimonials() {
                     {/* profile */}
                     <div className="pt-4 flex items-center space-x-4">
                         <img
-                            src="/images/profile-2.jpg"
+                            src="images/profile-2.jpg"
                             alt="Profile 2"
                             loading="lazy"
                             className="w-12 md:w-16 rounded-full"
@@ -65,7 +65,7 @@ export function Testimonials() {
                     {/* profile */}
                     <div className="pt-4 flex items-center space-x-4">
                         <img
-                            src="/images/profile-3.jpg"
+                            src="images/profile-3.jpg"
                             alt="Profile 3"
                             loading="lazy"
                             className="w-12 md:w-16 rounded-full"
